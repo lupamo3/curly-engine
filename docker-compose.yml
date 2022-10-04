@@ -11,6 +11,8 @@ services:
       - .:/app
     depends_on:
       - db
+    
+    
 
   db:
     platform: linux/x86_64
